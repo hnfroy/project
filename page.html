@@ -32,9 +32,12 @@
                 </div>
                 <nav :class="{'flex': open, 'hidden': !open}"
                     class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
-                    <a class="px-4 py-2 text-sm font-semibold text-white bg-transparent hover:text-yellow-400" href="#">TUGAS</a>
-                    <a class="px-4 py-2 text-sm font-semibold text-white bg-transparent hover:text-yellow-400" href="#">MATA PELAJARAN</a>
-                    <a class="px-4 py-2 text-sm font-semibold text-white bg-transparent hover:text-yellow-400" href="#">MAHASISWA</a>
+                    <a class="px-4 py-2 text-sm font-semibold text-white bg-transparent hover:text-yellow-400"
+                        href="#">TUGAS</a>
+                    <a class="px-4 py-2 text-sm font-semibold text-white bg-transparent hover:text-yellow-400"
+                        href="#">MATA PELAJARAN</a>
+                    <a class="px-4 py-2 text-sm font-semibold text-white bg-transparent hover:text-yellow-400"
+                        href="#">MAHASISWA</a>
                     <div class="flex items-center space-x-2 px-4">
                         <a href="#" class="p-2 rounded-full bg-blue-50">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-200" fill="none"
@@ -49,16 +52,50 @@
         </div>
     </section>
 
-    <section>
-        <div class="mx-44 bg-white border-gray-500 border-b-2">
+    <section class="lg:mx-44 sm:mx-4">
+        <div class="bg-white border-b-2">
             <button class="my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                 Buat
             </button>
         </div>
-        <div class="mx-44">
-            a
+        <div class="bg-gray-300 lg:p-6 sm:p-2 rounded mt-1 border-b border-grey cursor-pointer hover:bg-grey-lighter">
+            <h1 class="font-bold">TUGAS 1</h1>
+            <div class="text-grey-darker mt-2 ml-2 flex justify-between items-start">
+                <span class="text-xs flex items-center">
+                    <svg class="h-4 fill-current mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <path
+                            d="M11 4c-3.855 0-7 3.145-7 7v28c0 3.855 3.145 7 7 7h28c3.855 0 7-3.145 7-7V11c0-3.855-3.145-7-7-7zm0 2h28c2.773 0 5 2.227 5 5v28c0 2.773-2.227 5-5 5H11c-2.773 0-5-2.227-5-5V11c0-2.773 2.227-5 5-5zm25.234 9.832l-13.32 15.723-8.133-7.586-1.363 1.465 9.664 9.015 14.684-17.324z" />
+                        </svg>
+                    3/5
+                </span>
+                <a href="#" class="p-2 rounded-full bg-blue-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-200" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                </a>
+            </div>
         </div>
-
+        <div class="bg-gray-300 lg:p-6 sm:p-2 rounded mt-1 border-b border-grey cursor-pointer hover:bg-grey-lighter">
+            <h1 class="font-bold">TUGAS 2</h1>
+            <div class="text-grey-darker mt-2 ml-2 flex justify-between items-start">
+                <span class="text-xs flex items-center">
+                    <svg class="h-4 fill-current mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <path
+                            d="M11 4c-3.855 0-7 3.145-7 7v28c0 3.855 3.145 7 7 7h28c3.855 0 7-3.145 7-7V11c0-3.855-3.145-7-7-7zm0 2h28c2.773 0 5 2.227 5 5v28c0 2.773-2.227 5-5 5H11c-2.773 0-5-2.227-5-5V11c0-2.773 2.227-5 5-5zm25.234 9.832l-13.32 15.723-8.133-7.586-1.363 1.465 9.664 9.015 14.684-17.324z" />
+                        </svg>
+                    3/5
+                </span>
+                <a href="#" class="p-2 rounded-full bg-blue-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-200" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
     </section>
 </body>
 <script>
