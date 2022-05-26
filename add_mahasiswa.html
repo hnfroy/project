@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Tambah Tugast</title>
 
     <!-- trix  editor -->
     <link rel="stylesheet" type="text/css" href="trix/trix.css">
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <section>
+    <!-- <section>
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
         <div class="w-full text-gray-700 bg-blue-500 dark-mode:text-gray-200 dark-mode:bg-gray-800">
             <div x-data="{ open: false }"
@@ -56,10 +56,26 @@
                 </nav>
             </div>
         </div>
-    </section>
+    </section> -->
 
+    <nav class="w-full bg-orange-500 py-4 px-5 fixed z-20 shadow-lg border-b border-blue-300">
+        <div class="flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold">UT</h1>
+            <ul class="gap-10 hidden md:flex">
+                <li class=""><a href="" class="font-semibold text-white hover:text-gray-400">Tugas</a></li>
+                <li class=""><a href="" class="font-semibold text-white hover:text-gray-400">Jadwal</a></li>
+                <li class=""><a href="" class="font-semibold text-white hover:text-gray-400">Nilai</a></li>
+            </ul>
+            <div id="profile" class="w-9 h-9 bg-white rounded-full"></div>
+        </div>
+    </nav>
+    <!-- nav mobile -->
+    <nav class="w-full md:hidden bottom-0 bg-orange-500 py-4 px-5 fixed z-20 shadow-t-lg border-t border-blue-300">
+
+    </nav>
+    
     <section class="lg:mx-44 sm:mx-4">
-        <div class="border-b-2 my-4">
+        <div class="border-b-2 py-16">
             <h1 class="font-bold text-xl my-2 mx-2">
                 Buat Tugas
             </h1>
