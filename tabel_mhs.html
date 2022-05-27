@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mata Pelajaran</title>
+</head>
+
+<body>
+
+<section class="top-0">
+    <nav class="w-full bg-orange-500 py-4 px-5 fixed z-20 shadow-lg border-b border-blue-300">
+        <div class="flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold">UT</h1>
+            <ul class="gap-10 hidden md:flex">
+                <li class=""><a href="" class="font-semibold text-white hover:text-gray-400">Tugas</a></li>
+                <li class=""><a href="" class="font-semibold text-white hover:text-gray-400">Jadwal</a></li>
+                <li class=""><a href="" class="font-semibold text-white hover:text-gray-400">Nilai</a></li>
+            </ul>
+            <div id="profile" class="w-9 h-9 bg-white rounded-full"></div>
+        </div>
+    </nav>
+    <!-- nav mobile -->
+    <nav class="w-full md:hidden bottom-0 bg-orange-500 py-4 px-5 fixed z-20 shadow-t-lg border-t border-blue-300">
+
+    </nav>
+</section>
+    <section class="lg:mx-44 sm:mx-4 px-2">
+        <div class="text-2xl border-b-2 border-slate-300 py-4">
+        <h1 class="font-bold">Mahasiswa</h1>
+        </div>
+        <div class="flex flex-col">
+            <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+              <div class="py-4 inline-block min-w-full sm:px-6 lg:px-8">
+                <div class="overflow-hidden">
+                  <table class="min-w-full text-center">
+                    <thead class="border-b bg-slate-400">
+                      <tr>
+                        <th scope="col" class="text-sm font-medium text-white px-6 py-4">
+                          NO
+                        </th>
+                        <th scope="col" class="text-sm font-medium text-white px-6 py-4">
+                          NIP
+                        </th>
+                        <th scope="col" class="text-sm font-medium text-white px-6 py-4">
+                          Nama
+                        </th>
+                        <th scope="col" class="text-sm font-medium text-white px-6 py-4">
+                          Email
+                        </th>
+                        <th scope="col" class="text-sm font-medium text-white px-6 py-4">
+                          Action
+                        </th>
+                      </tr>
+                    </thead class="border-b">
+                    <tbody>
+                      <tr class="bg-white border-b">
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1</td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                          Mark
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                          Otto
+                        </td>
+                        <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                          @mdo
+                        </td>
+                        <td>
+                          <div class="cursor-pointer grid grid-cols-2 gap-2">
+                            <a class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-1 px-0 rounded-md"
+                                type="submit">
+                                Edit
+                            </a>
+                            <a class="bg-red-600 hover:bg-red-700 text-white font-bold py-1 px-0 rounded-md"
+                                type="submit">
+                                Hapus
+                            </a>
+                            <a class="bg-green-600 hover:bg-green-700 text-white font-bold py-1 px-0 rounded-md"
+                                type="submit">
+                                Detail
+                            </a>
+                            <a class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-1 px-0 rounded-md"
+                                type="submit">
+                                Daftar
+                            </a>
+                        </div>
+                        </td>
+                      </tr class="bg-white border-b">
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+</body>
+<!-- <script>
+    //Javascript to toggle the menu
+    document.getElementById('nav-toggle').onclick = function () {
+        document.getElementById("nav-content").classList.toggle("hidden");
+    }
+</script> -->
+
+</html>
