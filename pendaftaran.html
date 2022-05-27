@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+nip, nama, no hp, almaat, eamil, password
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="font-sans antialiased bg-grey-lightest">
+
+        <!-- Content -->
+        <div class="w-full bg-grey-lightest" style="padding-top: 4rem;">
+            <div class="container mx-auto py-8">
+                <div class="w-5/6 lg:w-1/2 mx-auto bg-slate-100 rounded shadow">
+                    <div class="py-4 px-8 text-black text-xl text-center border-b border-grey-lighter">Form Pendaftaran
+                    </div>
+                    <p class="px-4">Data Pribadi</p>
+                    <div class="py-4 px-4">
+                        <div class="flex mb-4">
+                            <div class="w-2/3 mr-1">
+                                <label class="block text-grey-darker text-sm font-bold mb-2" for="first_name">Nama
+                                    Lengkap</label>
+                                <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                    id="first_name" type="text" placeholder="Nama Lengkap">
+                            </div>
+                            <div class="w-1/3 ml-1">
+                                <label class="block text-grey-darker text-sm font-bold mb-2" for="last_name">Jenis
+                                    Kelamin</label>
+                                <div class="flex my-5">
+                                    <div class="flex items-center mr-4">
+                                        <input id="inline-radio" type="radio" value="" name="inline-radio-group"
+                                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                        <label for="inline-radio"
+                                            class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Pria</label>
+                                    </div>
+                                    <div class="flex items-center mr-4">
+                                        <input id="inline-2-radio" type="radio" value="" name="inline-radio-group"
+                                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                        <label for="inline-2-radio"
+                                            class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Wanita</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex mb-4">
+                            <div class="w-1/2 mr-1">
+                                <label class="block text-grey-darker text-sm font-bold mb-2" for="first_name">Tempat
+                                    Lahir</label>
+                                <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                    id="first_name" type="text" placeholder="Tempat Tanggal Lahir">
+                            </div>
+                            <div class="w-1/2 ml-1">
+                                <label class="block text-grey-darker text-sm font-bold mb-2" for="last_name">Tanggal
+                                    Lahir</label>
+                                <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                    id="last_name" type="date" placeholder="Your last name">
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="password">Alamat Tempat
+                                Tinggal</label>
+                            <textarea class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                id="password" type="password" placeholder="Alamat Tempat Tinggal"></textarea>
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="password">Nomor HP</label>
+                            <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                id="password" type="password" placeholder="nomor hp">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="email">Email</label>
+                            <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="email"
+                                type="email" placeholder="Email">
+                        </div>
+                        <hr>
+                        <p>Data Sekolah Asal</p>
+                        <div class="my-4">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="password">Nama
+                                Sekolah</label>
+                            <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                id="password" type="password" placeholder="Nama Sekolah">
+                        </div>
+                        <div class="flex mb-4">
+                            <div class="w-1/2 mr-1">
+                                <label class="block text-grey-darker text-sm font-bold mb-2" for="first_name">Tahun
+                                    Lulus</label>
+                                <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                    id="first_name" type="text" placeholder="Tahun Lulus">
+                            </div>
+                            <div class="w-1/2 ml-1">
+                                <label class="block text-grey-darker text-sm font-bold mb-2" for="last_name">No.
+                                    Ijazah</label>
+                                <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                    id="last_name" type="text" placeholder="No Ijazah">
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="password">Alamat
+                                Sekolah</label>
+                            <textarea class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                id="password" type="password" placeholder="Alamat Sekolah"></textarea>
+                        </div>
+                        <hr>
+                        <p>Data Orang Tua / Wali</p>
+                        <div class="my-4">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="email">Nama Orang
+                                Tua</label>
+                            <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="email"
+                                type="email" placeholder="Nama Orang Tua">
+                        </div>
+                        <div class="flex mb-4">
+                            <div class="w-1/2 mr-1">
+                                <label class="block text-grey-darker text-sm font-bold mb-2" for="first_name">Nomor HP</label>
+                                <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                    id="" type="text" placeholder="Nomor HP">
+                            </div>
+                            <div class="w-1/2 ml-1">
+                                <label class="block text-grey-darker text-sm font-bold mb-2" for="last_name">Email</label>
+                                <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                    id="" type="text" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="password">Nama
+                                Instansi</label>
+                            <input class="appearance-none border rounded w-full py-2 px-3 text-grey-darker"
+                                id="password" type="password" placeholder="Nama Instansi">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="password">Pendidikan Terakhir</label>
+                            <div class="flex my-5">
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">S3</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-2-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-2-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">S2</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-2-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-2-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">S1</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-2-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-2-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Diploma</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-2-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-2-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">SLTA</label>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <p>Pilihan Kelas & Jurusan</p>
+                        <div class="my-4 border-b border-grey-lighter">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="password">Kelas</label>
+                            <div class="flex mb-2">
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Regular</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-2-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-2-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Karyawan</label>
+                                </div>
+                                <div class="flex items-center mr-4">
+                                    <input id="inline-2-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="inline-2-radio"
+                                        class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Eksekutif</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-4 border-b border-grey-lighter">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="password">Ekonomi & Manajemen</label>
+                            <div class="flex mb-2">
+
+                            </div>
+                        </div>
+                        <div class="my-4">
+                            <label class="block text-grey-darker text-sm font-bold mb-2" for="password">Informatika</label>
+                            <div class="flex mb-2">
+
+                            </div>
+                        </div>
+                        <div class="flex justify-end mt-8">
+                            <button class="bg-blue-400 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-md"
+                                type="submit">
+                                Daftar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
